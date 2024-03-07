@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Регистрация в личном кабинете</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"> <img src="img/logo.png" alt="Логотип компании"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Акции</a></li>
+                <li><a href="booking.html">Оформление заказа</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+<div class="container">
+    <form class="registration-form">
+        <h2>Регистрация в личном кабинете</h2>
+        <div class="form-group">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" placeholder="Введите Имя" required >
+        </div>
+        <div class="form-group">
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname" placeholder="Введите Фамилию" required>
+        </div>
+        <div class="form-group">
+            <label for="patronymic">Отчество:</label>
+            <input type="text" id="patronymic" placeholder="Введите Отчество" name="patronymic">
+        </div>
+        <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введите телефон" required>
+        </div>
+        <div class="form-group">
+            <label for="dob">Дата рождения:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Повторите пароль:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Повторно введите пароль" required>
+        </div>
+        <a class="but"  href="profile.html">Зарегистрироваться</a>
+        <p>Есть аккаунт? <a href="login.html">Войти</a></p>
+    </form>
+</div>
+<footer>
+    <div class="footer-content">
+        <p>Телефон: 8 (800) 111-11-11</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="profile.html">Личный Кабинет </a></li>
+                <li><a href="booking.html">Оформление заказа</a></li>
+                <li><a href="history.html">Мои игры</a></li>
+                <li><a href="basket.html">Корзина</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

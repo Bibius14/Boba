@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="catalog.css">
+  <title>Каталог товаров</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+       <a href="index.html"> <img src="img/logo.png" alt="Логотип компании"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Акции</a></li>
+            <li><a href="booking.html">Оформление заказа</a></li>
+            <li><a href="profile.html">Личный кабинет</a></li>
+        </ul>
+    </nav>
+    
+</header>
+  <div class="filters">
+    <h2>Фильтры</h2>
+    <form>
+      <div class="filter-item">
+        <label for="game-title">Название игры:</label>
+        <input type="text" id="game-title">
+      </div>
+      <div class="filter-item">
+        <label for="genre">Жанр:</label>
+        <select id="genre">
+          <option value="">Выбрать жанр</option>
+          <option value="action">Action</option>
+          <option value="adventure">Adventure</option>
+          <option value="rpg">RPG</option>
+          <!-- Другие варианты жанров -->
+        </select>
+      </div>
+      <div class="filter-item">
+        <label for="platform">Платформа:</label>
+        <select id="platform">
+          <option value="">Выбрать платформу</option>
+          <option value="pc">PC</option>
+          <option value="ps4">PlayStation 4</option>
+          <option value="xbox">Xbox One</option>
+          <!-- Другие варианты платформ -->
+        </select>
+      </div>
+      <!-- Добавьте другие фильтры здесь -->
+      <div class="filter-item">
+        <label for="availability">Статус наличия:</label>
+        <select id="availability">
+          <option value="">Выбрать статус</option>
+          <option value="in-stock">В наличии</option>
+          <option value="out-of-stock">Нет в наличии</option>
+        </select>
+      </div>
+      <button type="submit">Применить фильтры</button>
+    </form>
+  </div>
+  <div class="products">
+ <!-- Разметка для карточки товара -->
+<div class="product-card">
+    <img src="img/game3.png">
+    <h3>Minecraft</h3>
+    <p>Жанр: Action</p>
+    <p>Тип товара: Электронная лицензия</p>
+    <p>Стоимость: $25</p>
+    <p>Статус наличия: В наличии</p>
+    <a href="javascript:history.back()" class="back-button">Подробнее</a>
+  </div>
+  
+  <div class="product-card">
+    <img src="img/game10.jpg">
+    <h3>UNRAVEL</h3>
+    <p>Жанр: Adventure</p>
+    <p>Тип товара: Физическое издание</p>
+    <p>Стоимость: $35</p>
+    <p>Статус наличия: В наличии</p>
+    <a href="item2.html" class="back-button">Подробнее</a>
+  </div>
+  
+  <div class="product-card">
+    <img src="img/game2.jpg">
+    <h3>Ori and the Blind Forest </h3>
+    <p>Жанр: Метроидвания</p>
+    <p>Тип товара: Электронная лицензия</p>
+    <p>Стоимость: $30</p>
+    <p>Статус наличия: Нет в наличии</p>
+    <a href="item3.html" class="back-button">Подробнее</a>
+  </div>
+  
+  <div class="product-card">
+    <img src="img/game1.jpg">
+    <h3>Shape of the world</h3>
+    <p>Жанр: Приключенческая</p>
+    <p>Тип товара: Электронная лицензия</p>
+    <p>Стоимость: $30</p> 
+    <p>Статус наличия: В наличии</p>
+    <a href="item4.html" class="back-button">Подробнее</a>
+  </div>
+  <div class="product-card">
+    <img src="img/game9.jpg">
+    <h3>Litle big planet</h3>
+    <p>Жанр: платформер</p>
+    <p>Тип товара: Электронная лицензия</p>
+    <p>Стоимость: $40</p>
+    <p></p>
+    <p>Статус наличия: В наличии</p>
+    <a href="item5.html" class="back-button">Подробнее</a>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+        <p>Телефон: 8 (800) 111-11-11</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="profile.html">Личный Кабинет </a></li>
+                <li><a href="booking.html">Оформление заказа</a></li>
+                <li><a href="history.html">Мои игры</a></li>
+                <li><a href="basket.html">Корзина</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

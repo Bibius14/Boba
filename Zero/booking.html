@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Оформление заказа</title>
+<link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"> <img src="img/logo.png" alt="Логотип компании"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Акции</a></li>
+                <li><a href="booking.html">Оформление заказа</a></li>
+                <li><a href="profile.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+<div class="container">
+    <div class="order-form">
+        <h2>Оформление заказа:</h2>
+        <fieldset>
+            <legend>Данные об играх:</legend>
+            <div class="game-info">
+                <p><strong>Название игры:</strong> Mincraft</p>
+                <p><strong>Жанр:</strong> выживание</p>
+                <p><strong>Платформа:</strong> PC</p>
+                <p><strong>Тип товара:</strong> Digital</p>
+                <p><strong>Регион активации:</strong> Global</p>
+                <p><strong>Статус наличия:</strong> В наличии</p>
+                <p><strong>Стоимость:</strong> $25</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Данные о клиенте:</legend>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Фамилия">
+            <input type="text" placeholder="Отчество">
+            <input type="tel" placeholder="Номер телефона">
+            <input type="text" placeholder="**** **** **** 1234 (Последние 4 цифры карты)">
+            <input type="date" placeholder="Дата рождения">
+        </fieldset>
+        <label for="use-points">Снять баллы накопительного счета</label>
+        <input type="checkbox" id="use-points">
+        <p class="points-info">Количество начисляемых баллов: 5% от суммы заказа</p>
+        <label for="payments">Выберите банковскую карту:</label>
+        <select id="payments" name="payments">
+            <option value="card1">**** **** **** 1377</option>
+            <option value="card2">**** **** **** 1488</option>
+            <option value="card3">**** **** **** 4441</option>
+        </select>
+        <button>Оформить заказ</button>
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <p>Телефон: 8 (800) 111-11-11</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="profile.html">Личный Кабинет </a></li>
+                <li><a href="booking.html">Оформление заказа</a></li>
+                <li><a href="history.html">Мои игры</a></li>
+                <li><a href="basket.html">Корзина</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

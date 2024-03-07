@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #7d6767;
+    
+}
+
+header {
+    background-color: #330000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    color: white;
+    padding-left: 100px;
+}
+
+nav ul li a {
+
+    text-decoration: none;
+}
+
+.slider {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.slide {
+    flex: 0 0 33.33%;
+    text-align: center;
+    padding: 20px;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 450px;
+}
+
+.slide h3 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.guarantee {
+    border-radius: 10px black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.guarantee p {
+    font-size: 2em;
+    color: #fff;
+}
+
+.new-games {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.game {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 300em;
+    height: 15em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promogame {
+    text-align: center;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+    max-width: 1200px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.news-item {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #3a3939;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 236, 236);
+    text-decoration: none;
+}
+footer {
+    background-color: #3a3939;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(255, 236, 236);
+    text-decoration: none;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px ;
+    border: 1px solid white; 
+}
+.backlog{
+    background: url("img/backlogo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+    text-align:center; /* Текст по центру */
+    color: #fff; /* Цвет текста */
+    padding: 250px 0; /* Отступ сверху и снизу */
+    font-size: 68px;
+}
